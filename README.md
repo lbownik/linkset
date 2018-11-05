@@ -1,20 +1,20 @@
-#linkset
+# linkset
 A small library that utilizes Java 5 features to enable:
 
-*an alternative approach to listeners; this was mainly inspired by C# and Qt approach 
+* an alternative approach to listeners; this was mainly inspired by C# and Qt approach 
 (<a href="http://www.codeproject.com/KB/library/Linkset.aspx">more</a>);
 
-*event busses
+* event busses
 (<a href="http://www.codeproject.com/KB/library/Linkset_EventBus.aspx">more</a>);
 
-*remote command pattern
+* remote command pattern
 (<a href="http://www.codeproject.com/KB/architecture/command_pattern_article.aspx">more</a>);
-*duck typing through dynamic proxies;
+* duck typing through dynamic proxies;
 
 
 
 This is a HowTo page that describes how to use LinkSet.
-###Listener provider
+### Listener provider
 
 This code shows how to implement a class that can be observed by listeners.
 ```
@@ -58,7 +58,7 @@ public class ListenerProvider {
     }
 }
 ```
-###Listener handler
+### Listener handler
 
 This code shows how to implement a class that provides methods that listen to events.
 ```
